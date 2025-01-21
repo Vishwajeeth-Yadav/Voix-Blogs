@@ -116,7 +116,7 @@ function BlogInfo() {
                     {/* Thumbnail */}
                     <img
                       alt="content"
-                      className="mb-5 mx-auto rounded-lg w-[60%] h-[50vh] "
+                      className="mb-5 mx-auto rounded-lg xs:w-full md:w-auto h-[50vh] "
                       src={blogPost.thumbnail}
                     />
                     {/* Title and Date */}
