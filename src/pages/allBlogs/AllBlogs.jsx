@@ -51,7 +51,7 @@ function AllBlogs() {
                                                 >
                                                     {/* Blog Thumbnail */}
                                                     <img
-                                                        className="w-full h-52 object-cover"
+                                                        className="w-full h-52 object-fill"
                                                         src={thumbnail}
                                                         alt="blog"
                                                         style={{

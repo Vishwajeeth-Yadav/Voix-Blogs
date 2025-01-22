@@ -41,7 +41,7 @@ function BlogPostCard() {
                 >
                   {/* Blog Thumbnail */}
                   <div className="bg-gray-300">
-                    <img onClick={() => navigate(`/bloginfo/${id}`)} className="w-full h-60 object-cover" src={thumbnail} alt="blog" />
+                    <img onClick={() => navigate(`/bloginfo/${id}`)} className="w-full h-60 object-fill" src={thumbnail} alt="blog" />
                   </div>
 
                   {/* Top Items */}
